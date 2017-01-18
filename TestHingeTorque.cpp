@@ -333,7 +333,7 @@ void TestHingeTorque::lockLiftHinge(void)
 		hinge->setLimit(hingeAngle, hingeAngle);
 	}
 	return;
-} // ForkLiftDemo::lockLiftHinge()
+} 
 void TestHingeTorque::lockLiftHinge1(void)
 {
 	btScalar hingeAngle = hinge1->getHingeAngle();
