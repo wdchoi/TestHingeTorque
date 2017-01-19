@@ -236,10 +236,8 @@ void TestHingeTorque::initPhysics()
 bool TestHingeTorque::keyboardCallback(int key, int state)
 {
 	bool handled = false;
-	bool isShiftPressed = m_guiHelper->getAppInterface()->m_window->isModifierKeyPressed(B3G_SHIFT);
 	if (state)
 	{
-		if (!isShiftPressed)
 			switch (key)
 			{
 			case B3G_LEFT_ARROW:
